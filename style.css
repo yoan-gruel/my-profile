@@ -1,0 +1,72 @@
+body {
+	background: rgb(240, 240, 240);
+	color: rgb(50, 50, 50);
+	font-family: 'Merriweather', serif;
+	font-size: 17px;
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+img {
+	width: 250px;
+	height: 250px;
+}
+
+#presentation-bottom {
+	margin-top: 40px
+	margin-bottom: 40px
+}
+
+#link {
+	width: 30%;
+}
+
+h1, h2 {
+	font-family: 'Lora', serif;
+}
+
+h1 {
+	font-size: 29px
+
+}
+
+h2 {
+	font-size: 23px
+}
+
+a {
+	text-decoration: none;
+	color: darkred;
+	transition: color 0.5s ease;
+}
+
+a:hover {
+	color : black;
+}
+
+#list-inline {
+	padding: 0; margin: 0;
+}
+
+#list-inline li {
+	display: inline;
+	padding: 10px;
+	font-size: 40px;
+}
+
+
